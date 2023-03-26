@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<customers>
+    <cus>
+        <head>
+            We Loved it
+        </head>
+        <discription>
+            "We loved our stay at the hotel! The location was perfect, close to all the major attractions and transportation. The staff was friendly and accommodating, always going above and beyond to make our stay comfortable. Our room was clean and spacious, with a comfortable bed and all the necessary amenities. The breakfast buffet was delicious and offered a wide variety of options. We highly recommend this hotel and would definitely stay here again!"
+        </discription>
+        <img>
+            /images/cus1.jpg
+        </img>
+        <name>
+            Hubert Burda
+        </name>
+    </cus>
+    <cus>
+        <head>
+            Comfortable Living
+        </head>
+        <discription>
+            "Staying at the hotel was an absolute delight. The rooms were spacious, the bed was comfortable, and the amenities were top-notch. The hotel staff was always courteous and accommodating, making me feel at home. The view from my room was stunning, and the hotel's location was perfect for exploring the city. I would highly recommend this hotel to anyone who wants a comfortable and luxurious stay."
+        </discription>
+        <img>
+            /images/cus3.jpg
+        </img>
+        <name>
+             Jensen Huang
+        </name>
+    </cus>
+    <cus>
+        <head>
+            Nice Place
+        </head>
+        <discription>
+            I recently had the pleasure of staying at this hotel and I must say that it was a truly nice experience. The staff was welcoming and attentive, the rooms were spacious and well-maintained, and the overall atmosphere of the hotel was peaceful and relaxing. I particularly enjoyed the beautiful views of the surrounding area and the convenient location of the hotel. Overall, I would highly recommend this hotel to anyone looking for a comfortable and enjoyable stay.
+        </discription>
+        <img>
+            /images/cus-2.jpg
+        </img>
+        <name>
+            Sergey Brin
+        </name>
+    </cus>
+</customers>

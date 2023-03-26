@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* main {
+    border: 2px solid red;
+} */
+
+main .service-head{
+    width: 85vw;
+    margin: 4rem auto;
+}
+
+main .service-head strong{
+    margin-top: 2rem;
+    font-size: 3rem;
+    border-bottom: 5px solid rgb(255, 211, 68);
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+main .Services {
+    /* border: 2px solid black; */
+    width: 85vw;
+    margin: 0.1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .Services .service-head {
+    border: 1px solid blue;
+} */
+
+.Services .services-food {
+    /* border: 1px solid green; */
+    width: 45%;
+    /* height: fit-content; */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 2%;
+}
+
+.services-food .food-icon {
+    float: left;
+    height: 100%;
+}
+
+.food-icon i{
+    font-size: 3rem;
+    /* color: #383734; */
+    color: rgb(255, 211, 68);;
+}
+
+.food-contain .services-title{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-left: 12%;
+    color: rgba(56, 56, 1, 0.808);
+}
+
+.food-contain .services-details{
+    color: rgba(87, 56, 0, 0.856);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.food-contain button{
+    color: aliceblue;
+    background-color: rgb(255, 211, 68);
+    font-size: 1.5rem;
+    border: 3px solid rgb(255, 211, 68);
+    border: none;
+    font-family: auto;
+    padding: 0.5rem 0.7rem;
+    /* width: 9rem; */
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 10px lightgrey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.food-contain button:hover{
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background-color:rgba(255, 211, 68, 0.432) ;
+    transition: 1s;
+    color: black;
+}
+
+.services-food:hover{
+    border-radius: 0px 30px 0px 30px ;
+    box-shadow: 5px 5px 30px rgb(206, 180, 93);
+}
+
+

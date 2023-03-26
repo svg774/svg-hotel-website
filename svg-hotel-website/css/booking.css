@@ -1,0 +1,80 @@
+.booking{
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.booking .book-container{
+    /* border: 2px solid red; */
+    width: 84vw;
+}
+.book-container .book-head p{
+    margin-top: 5rem;
+}
+.book-container .book-head p strong{
+    font-size: 3rem;
+    border-bottom: 5px solid rgb(255, 211, 68);
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+main .boxes {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.801)), url(../images/banner-img.jpg);
+}
+
+main .booking form {
+    /* border: 2px solid red; */
+    width: 84vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem;
+}
+
+.boxes form .booking-box{
+    /* border: 1px solid blue; */
+    font-family: 'Playfair Display', serif;
+    width: 25vw;
+    display: inline-block;
+    color: aliceblue;
+    margin: 1.5rem 0.2rem;
+}
+
+.booking-box input,select   {
+    font-family: 'Playfair Display', serif;
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.3rem;
+    color: black;
+}
+
+.booking-box label{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.booking-box .book-now{
+    border: 1.5px solid whitesmoke;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2.5rem;
+    width: 95%;
+    color: aliceblue;
+    background-color: rgba(82, 81, 81, 0.849);
+    cursor: pointer;
+}
+
+.booking-box .book-now:hover{
+    background: transparent;
+    transition: 1.5s;
+}

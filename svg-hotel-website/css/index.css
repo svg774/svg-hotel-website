@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* (rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)) */
+/* header::after{
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+} */
+
+.header {
+    padding: 50px;
+}
+
+.head-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-top-left a {
+    color: #ffffffc7;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.head-top-left a:hover {
+    color: rgb(216, 186, 17);
+}
+
+.hrad-top-right span {
+    color: #ffffffc7;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.hrad-top-right span:hover {
+    color: rgb(216, 186, 17);
+}
+
+.head-main {
+    flex: 1;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+}
+
+.head-main h1 strong {
+    margin-top: 7%;
+    padding: 3% 0%;
+    /* padding: 22px 0px; */
+    font-size: 2.77rem;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+
+.head-main p {
+    color: aliceblue;
+    opacity: 0.8;
+    width: 60vw;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 5% auto;
+    /* margin: 45px 0px; */
+}
+
+.head-main button {
+    margin: 4% auto 8.6% auto;
+    padding: 1.5% 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    cursor: pointer;
+    /* opacity: 0.5; */
+    border: 3px solid rgb(240, 248, 255);
+    border-radius: 3px;
+    font-size: 1.3rem;
+}
+
+.head-main a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.head-main button:hover {
+    background-color: transparent;
+}
+
+.navside {
+    background-color: rgb(54, 54, 51);
+    width: 270px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 2%;
+    right: 0;
+    display: none;
+}
+
+.navside .cancel {
+    font-size: 1.5rem;
+    color: aliceblue;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 25%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(201, 171, 0);
+    display: block;
+    padding: 7% 0%;
+    letter-spacing: 0.15rem;
+    color: aliceblue;
+    transition: all 0.7s ease;
+}
+
+.navbar ul li a:hover {
+    margin-left: 2rem;
+    letter-spacing: 0.2rem;
+    transition: 0.5s;
+}
+
+/* .navside .navside-btn{
+    border: 1px solid silver;
+    margin-top: 20%;    
+} */
+.navside button {
+    display: block;
+    margin: auto auto;
+}
+
+.navside .sign-up a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navside .sign-up,
+.log-in {
+    color: aliceblue;
+    background-color: rgb(255, 211, 68);
+    font-size: 1.5rem;
+    border: none;
+    font-family: auto;
+    padding: 0.5rem 0.7rem;
+    width: 9rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 7px lightgrey;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+.log-in:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+/* SERVICES */
+.Services .more-services {
+    /* border: 1px solid black; */
+    width: 85vw;
+    margin: -1.5rem auto 2rem auto;
+    /* padding: 5rem auto; */
+}
+
+.more-services .more-btn button {
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    /*  */
+    color: aliceblue;
+    background-color: rgb(255, 211, 68);
+    font-size: 1.5rem;
+    border: none;
+    font-family: auto;
+    padding: 0.5rem 0.7rem;
+    width: fit-content;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 7px lightgrey;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.more-services .more-btn button:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+.more-services .more-btn button span {
+    font-size: 1.5rem;
+}
+
+.more-services .more-btn button a {
+    text-decoration: none;
+    color: #292826;
+}
+
+
+/* BOOKING */
+
+main .booking {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.801)), url(../images/banner-img.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+main .booking form {
+    /* border: 2px solid red; */
+    width: 84vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem;
+}
+
+.booking form .booking-box{
+    /* border: 1px solid blue; */
+    font-family: 'Playfair Display', serif;
+    width: 25vw;
+    display: inline-block;
+    color: aliceblue;
+    margin: 1.5rem 0.2rem;
+}
+
+.booking-box input{
+    font-family: 'Playfair Display', serif;
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.3rem;
+    color: black;
+}
+
+.booking-box label{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.booking-box .book-now{
+    border: 1.5px solid whitesmoke;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2.5rem;
+    width: 95%;
+    color: aliceblue;
+    background-color: rgba(82, 81, 81, 0.849);
+    cursor: pointer;
+}
+
+.booking-box .book-now:hover{
+    background: transparent;
+    transition: 1.5s;
+}
+
+
+
+/* ROOMS */
+
+
+.rooms{
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.rooms .rooms-container{
+    /* border: 2px solid red; */
+    width: 84vw;
+}
+.rooms-container .rooms-head p{
+    margin-top: 5rem;
+}
+.rooms-container .rooms-head p strong{
+    font-size: 3rem;
+    border-bottom: 5px solid rgb(255, 211, 68);
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.589);
+}
+.rooms-container .room-box{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.room-box .room-img{
+    overflow: hidden;
+    width: 50%;
+}
+.room-box .room-img img{
+    width: 100%;
+    height: 100%;
+    transition: all 1.5s ease;
+}
+.room-box .room-img img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.room-box .room-detail {
+    background-color: #292826;
+    width: 50%;
+    color: rgba(245, 245, 245, 0.87);
+}
+.room-detail h1{
+    line-height: 5rem;
+    margin-top: -0.22rem;
+    margin-left: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.room-detail ul{
+    list-style-type: none;
+    margin: 0.5rem 1rem 2rem 1rem;
+    line-height: 1.5rem;
+}
+.room-detail ul li span{
+    /* font-size: 2rem; */
+    margin-right: 0.7rem;
+    color: rgba(255, 211, 68, 0.932);
+}
+.room-detail ul li{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.room-detail p{
+    margin: 1rem 2rem 0rem 1rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+.room-detail .room-btm .room-price{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.room-detail .room-btm{
+    margin: 3rem 1rem;
+}
+.room-detail .room-btm .room-price{
+    color: rgba(255, 211, 68, 0.932);
+}
+.room-detail .room-btn{
+    display: flex;
+    justify-content: center;
+}
+.room-detail .room-btn button{
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+}
+.room-detail .room-btn button a{
+    text-decoration: none;
+    color: #292826;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.room-detail .room-btn button:hover{
+    background-color: transparent;
+    color: whitesmoke;
+    transition: 1s;
+    cursor: pointer;
+}
+.room-detail .room-btn button a:hover{
+    color: whitesmoke;
+}
+
+
+rooms .more-rooms {
+    /* border: 1px solid black; */
+    width: 85vw;
+    margin: -1.5rem auto 2rem auto;
+    /* padding: 5rem auto; */
+}
+
+.more-rooms .more-btn button {
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    /*  */
+    color: aliceblue;
+    background-color: rgb(255, 211, 68);
+    font-size: 1.5rem;
+    border: none;
+    font-family: auto;
+    padding: 0.5rem 0.7rem;
+    width: fit-content;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 7px lightgrey;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.more-rooms .more-btn button:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+.more-rooms .more-btn button span {
+    font-size: 1.5rem;
+}
+
+.more-rooms .more-btn button a {
+    text-decoration: none;
+    color: #292826;
+}
+
+
+
+
+
+
+
+
+
+
+#pop-pop{
+    display: none;
+    /* transition: all 0.7s ease; */
+    position: absolute;
+    top: 5rem;
+}
+.main{
+    margin: 3rem auto;
+    /* border: 10px solid #292826; */
+    display: flex;
+    justify-content: center;
+    /* background: transparent; */
+    /* background-color: #292826; */
+    background: transparent;
+}
+.main .container{
+    /* position: absolute;
+    top: 5rem; */
+    width: 100vw;
+    height: 90vh;
+    /* border: 5px solid red; */
+    /* background-color: rgba(41, 40, 38, 0.9); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .form{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 36vw;
+    border: 1px solid #f9d442e1;
+    border-radius: 3.5rem 0rem 3.5rem 0rem;
+    margin: 1rem auto;
+    padding: 1.5rem 3rem;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0rem 0rem 30rem 5rem black;
+}
+.container .form:hover{
+    /* box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem rgba(128, 128, 128, 0.400); */
+    transform: scale(1.02);
+}
+.container .form label{
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.container .form input{
+    padding: 0.1rem 0.5rem;
+    font-size: 1.1rem;
+    font-family: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.data-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.data-btn a:hover{
+    color: #292826;
+}
+.container .form .data-btn{
+    display: none;
+}
+.container .form .s-btn, .data-btn{
+    background-color: #f9d442e1;
+    color: #fff;
+    border: 3px solid #f9d442e1;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all  0.7s ease;
+    margin-top: 3rem;
+}
+.container .form .s-btn:hover ,.data-btn:hover{
+    background-color: transparent;
+    color: #292826;
+}

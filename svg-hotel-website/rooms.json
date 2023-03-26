@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "luxury room",
+        "src" : "./images/img1.jpg",
+        "h_1" : "Lavish amenities",
+        "h_2" : "Spacious and comfortable",
+        "h_3" : "Spacious and elegantly furnished",
+        "p" : "Luxury rooms in hotels are equipped with high-end amenities such as comfortable bedding, plush towels, and top-of-the-line toiletries. They also offer entertainment options like flat-screen TVs, sound systems, and access to streaming services. Luxury rooms in hotels are often situated in prime locations, such as near the beach or in the heart of the city. They offer breathtaking views of the surroundings, allowing guests to relax and take in the beauty of their surroundings.",
+        "price" : "$95.00/"
+    },
+    {
+        "name" : "Family Room",
+        "src" : "./images/img2.jpg",
+        "h_1" : "Stunning views",
+        "h_2" : "Entertainment options",
+        "h_3" : "Enhanced amenities",
+        "p" : "A family room in a hotel typically refers to a larger guest room that is specifically designed to accommodate families traveling together. These rooms often feature extra beds or pull-out sofas, as well as additional amenities like a mini-fridge or microwave. They are designed to provide a comfortable and convenient space for families to stay, with enough room for everyone to relax and enjoy their stay.",
+        "price" : "$85.00/"
+    },
+    {
+        "name" : "Executive Room",
+        "src" : "./images/img3.jpg",
+        "h_1" : "Personalized service",
+        "h_2" : "Convenient amenities",
+        "h_3" : "Personalized service",
+        "p" : "Executive rooms are typically larger than standard hotel rooms and offer a more sophisticated and refined decor. Expect high-quality furniture, luxurious bedding, and upscale amenities. Executive rooms come with a range of amenities designed to make your stay more comfortable and convenient. These can include complimentary breakfast, in-room coffee makers, and access to a private lounge or business center.",
+        "price" : "$75.00/"
+    }
+
+]

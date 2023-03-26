@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* (rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)) */
+/* header::after{
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+} */
+
+.header {
+    padding: 50px;
+}
+
+.head-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-top-left a {
+    color: #ffffffc7;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.head-top-left a:hover {
+    color: rgb(216, 186, 17);
+}
+
+.hrad-top-right span {
+    color: #ffffffc7;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.hrad-top-right span:hover {
+    color: rgb(216, 186, 17);
+}
+
+.head-main {
+    flex: 1;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+}
+
+.head-main h1 strong {
+    margin-top: 7%;
+    padding: 3% 0%;
+    /* padding: 22px 0px; */
+    font-size: 2.77rem;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+
+.head-main p {
+    color: aliceblue;
+    opacity: 0.8;
+    width: 60vw;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 5% auto;
+    /* margin: 45px 0px; */
+}
+
+.head-main button {
+    margin: 4% auto 8.6% auto;
+    padding: 1.5% 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    cursor: pointer;
+    /* opacity: 0.5; */
+    border: 3px solid rgb(240, 248, 255);
+    border-radius: 3px;
+    font-size: 1.3rem;
+}
+
+.head-main a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.head-main button:hover {
+    background-color: transparent;
+}
+
+.navside {
+    background-color: rgb(54, 54, 51);
+    width: 270px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 2%;
+    right: 0;
+    display: none;
+    z-index: 99;
+}
+
+.navside .cancel {
+    font-size: 1.5rem;
+    color: aliceblue;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 25%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(201, 171, 0);
+    display: block;
+    padding: 7% 0%;
+    letter-spacing: 0.15rem;
+    color: aliceblue;
+    transition: all 0.7s ease;
+}
+
+.navbar ul li a:hover {
+    margin-left: 2rem;
+    letter-spacing: 0.2rem;
+    transition: 0.5s;
+}
+
+/* .navside .navside-btn{
+    border: 1px solid silver;
+    margin-top: 20%;    
+} */
+.navside button {
+    display: block;
+    margin: auto auto;
+}
+
+.navside .sign-up a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navside .sign-up,
+.log-in {
+    color: aliceblue;
+    background-color: rgb(255, 211, 68);
+    font-size: 1.5rem;
+    border: none;
+    font-family: auto;
+    padding: 0.5rem 0.7rem;
+    width: 9rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 7px lightgrey;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+.log-in:hover {
+    border: 3px solid rgb(255, 211, 68);
+    border-radius: 0.3rem;
+    background: transparent;
+    transition: 1s;
+}
+
+::selection {
+    color: #292826;
+    background: #f9d342;
+}
+
+

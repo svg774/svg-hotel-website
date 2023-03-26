@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+:root {
+    --transition: all 0.7s ease;
+    --yellow: #f9d342;
+    --dark: #292826;
+}
+
+
+
+
+
+::selection {
+    color: #292826;
+    background: #f9d342;
+}
+.customers {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/customer-banner.jpg") center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.customers .customers-container {
+    width: 84vw;
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+
+.customers-container .title {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    /* width: 100vw; */
+    /* display: block; */
+    /* width: 84vw; */
+}
+
+.customers-container .title p strong {
+    font-size: 3.5rem;
+    color: #f9d342;
+    opacity: 0.8;
+    letter-spacing: 0.2rem;
+    border-bottom: 5px solid #292826;
+}
+
+.customers-container .cus-box {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.customers-container .customers-box {
+    background-color: whitesmoke;
+    display: flex;
+    width: 36vw;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    transition: all 0.7s ease;
+    flex-wrap: wrap;
+}
+
+.customers-container .customers-box:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.customers-box .customers-detail {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.customers-box .customers-detail .rating {
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.customers-box .customers-detail .rating span i {
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+    color: #f9d342;
+    opacity: 0.9;
+}
+
+.customers-detail h2 {
+    margin-top: 2rem;
+}
+
+.customers-detail h2 strong {
+    font-size: 2rem;
+}
+
+.customers-detail h4 {
+    margin: 1rem 3rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    font-weight: 100;
+}
+
+.customers-detail img {
+    width: 50%;
+    height: 50%;
+    margin: 1rem auto;
+    border-radius: 50%;
+    transition: all 0.7s ease;
+}
+
+.customers-detail img:hover {
+    filter: blur(3px);
+    transform: scale(1.1);
+    cursor: -webkit-zoom-in;
+}
+
+.customers-detail h3 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    opacity: 0.7;
+}

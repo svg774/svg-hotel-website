@@ -1,0 +1,52 @@
+
+
+
+
+
+
+::selection {
+    color: #292826;
+    background: #f9d342;
+}
+main .data .container table{
+    user-select: none;
+}
+main .data{
+    /* border: 10px solid #292826; */
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.data .container{
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    width: 84vw;
+    /* border: 2px solid red; */
+}
+.container tr,td,th{
+    border: 1px solid #292826;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+.container table{
+    margin: auto auto;
+    width: 80%;
+}
+.container h1{
+    /* border: 1px solid #292826; */
+    width: 79.5%;
+    padding: 1rem;
+    margin: auto;
+}
+.container h4{
+    border: 1px solid red;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    background-color: rgba(255, 0, 0, 0.095);
+    color: red;
+    width: fit-content;
+    margin: auto;
+}
